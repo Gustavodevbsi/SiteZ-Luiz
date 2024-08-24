@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f9f0; /* Fundo verde muito claro */
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background: #28a745; /* Verde forte */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #218838; /* Verde escuro ao passar o mouse */
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.motivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.motivo {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px; /* Limita a largura máxima */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.motivo:hover {
+    transform: translateY(-5px); /* Levanta a caixa ao passar o mouse */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align:center; 
+    margin-top:30px; 
+    background-color: #28a745; /* Verde do cabeçalho */
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px; 
+}
+
+h2 {
+    color: #28a745; /* Verde para os títulos */
+}
+
+h3 {
+    color: #155724; /* Verde mais escuro para os subtítulos */
+}
+
+/* Adicionando uma classe para botões */
+.btn {
+    display:inline-block; 
+    padding:10px 20px; 
+    background-color:#155724; 
+    color:white; 
+    border:none; 
+    border-radius:5px; 
+    text-decoration:none; 
+}
+
+.btn:hover {
+   background-color:#1c7430; /* Verde escuro ao passar o mouse */
+transition-duration:.3s;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('zeluiz.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white; /* Cor do texto */
+}
